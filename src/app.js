@@ -1,7 +1,7 @@
 import express from "express";
-import catchAsync from "./utils/catchAsync";
+import catchAsync from "./utils/catchAsync.js";
 
-import User from "./models/user.model";
+import User from "./models/user.model.js";
 
 const app = express();
 
